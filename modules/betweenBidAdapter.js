@@ -70,12 +70,12 @@ export const spec = {
       let bidResponse = {
         requestId: serverResponse.body[i].bidid,
         cpm: serverResponse.body[i].cpm || 0,
-        width: serverResponse.body[i].w,
-        height: serverResponse.body[i].h,
-        ttl: serverResponse.body[i].ttl,
-        creativeId: serverResponse.body[i].creativeid,
+        width: serverResponse.body[i].w || 200,
+        height: serverResponse.body[i].h || 400,
+        ttl: serverResponse.body[i].ttl || 120,
+        creativeId: serverResponse.body[i].creativeid || 123,
         currency: serverResponse.body[i].currency || 'RUB',
-        netRevenue: serverResponse.body[i].netRevenue || true,
+        netRevenue: serverResponse.body[i].netRevenue || false,
         ad: serverResponse.body[i].ad
       };
       bidResponses.push(bidResponse);

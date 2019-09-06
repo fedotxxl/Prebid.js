@@ -1,0 +1,15 @@
+[
+  "currency",
+  "betweenBidAdapter",
+  "getintentBidAdapter",
+  "appnexusBidAdapter",
+  "rtbhouseBidAdapter",
+  "smartyadsBidAdapter",
+  "fidelityBidAdapter",
+  "roxotAnalyticsAdapter",
+  "otmBidAdapter",
+  "admixerBidAdapter",
+  "criteoBidAdapter",
+  "rubiconBidAdapter",
+  "testBidAdapter"
+]
