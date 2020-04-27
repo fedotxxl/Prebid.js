@@ -21,7 +21,7 @@ export const spec = {
         bidfloor: bid.params.bidfloor
       };
 
-      return {method: 'GET', url: 'https://ssp.otm-r.com/adjson', data: params}
+      return {method: 'GET', url: 'https://pub-eu.p.otm-r.com/adjson', data: params}
     });
 
     return requests;
