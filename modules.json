@@ -11,5 +11,6 @@
   "admixerBidAdapter",
   "criteoBidAdapter",
   "rubiconBidAdapter",
-  "testBidAdapter"
+  "testBidAdapter",
+  "mytargetBidAdapter"
 ]
